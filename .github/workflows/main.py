@@ -2,7 +2,7 @@ import requests
 import json
 import os
 
-GEMINI_API_KEY = os.environ["AIzaSyARUZ2UuQqmjWZ0zNlb0YSXHyBNcY9ZUZM"]
+GEMINI_API_KEY = os.environ["GEMINI_API_KEY"]
 
 # Get 1 product from OpenFoodFacts
 def get_random_product():
